@@ -1,16 +1,16 @@
-## 19 Progressive Web Applications (PWA) : Text Editor
+## Keeper of the Texts
 
 ## Description
 
 The application is a web text editor where the user can create notes or code snippets with or without an internet connection and where the user can reliably retrieve them for later use.  The integrated service worker and Cache API's ensure that the application will remain fully functional even without and active internet connection.  This application allows the user to access visited pages even if the application is offline.
 
-🚀The application has been deployed to Heroku and the URL of the deployed application is:-
+The application has been deployed to Heroku and the URL of the deployed application is:- 
+https://keeps-texts-4706bbdb0e73.herokuapp.com 
 
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [References](#references)
 * [License](#license)
 
 ## Installation
@@ -44,6 +44,7 @@ THEN I should see a client server folder structure
 ``````
 *Below is the screenshot of the client server folder structure.  The folder structure have been set up or given in this structure.*
 
+![alt text](/demo-assets/Screenshot%202024-06-17%20200319.png)
 
 2.
 ``````
@@ -54,9 +55,10 @@ THEN I should see a client server folder structure
     WHEN I run my webpack plugins
     THEN I find that I have a generated HTML file, service worker, and a manifest file
 ``````
-*Below is the screenshot of the running at npm run start and npm run build* 
 
-*Below is the screenshot of the generated HTML, service worker and a manifest file*
+*Below is the screenrecod of the running at npm run start and npm run build and the generated HTML, service worker and a manifest file*
+
+![alt text](/demo-assets/dmeo-file-structure.mp4)
 
 3.
 ``````
@@ -64,7 +66,10 @@ WHEN I use next-gen JavaScript in my application
 THEN I find that the text editor still functions in the browser without errors
 WHEN I open the text editor
 ``````
+
 *Below is the screenshot of the text editor "Just Another Text Editor (J.A.T.E)"*
+
+![alt text](/demo-assets/Screenshot%202024-06-17%20200136.png)
 
 4.
 ``````
@@ -74,33 +79,30 @@ THEN I find that the content in the text editor has been saved with IndexedDB
 WHEN I reopen the text editor after closing it
 THEN I find that the content in the text editor has been retrieved from our IndexedDB
 ``````
-*Below is the  screenshot of content in the text editor has been retrieved from the IndexedDB"*
+
+![alt text](/demo-assets/demo-local-host.mp4)
 
 5.
 ``````
 WHEN I click on the Install button
 THEN I download my web application as an icon on my desktop
 ``````
-*Below is the screenshot of icon on the desktop"*
 
-6.
 ``````
 WHEN I load my web application
 THEN I should have a registered service worker using workbox
 WHEN I register a service worker
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
 ``````
-*Below is the screenshot of the static assets pre cached upon loading with subsequent pages and static assets"*
 
-
-7.
-
- ````````
+````````
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application 
 ````````
 
+![alt text](/demo-assets/deployed-app-demo.mp4)
 
-## References
  
 ## License
+
+There is no license.
