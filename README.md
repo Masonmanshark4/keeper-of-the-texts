@@ -12,6 +12,7 @@ https://keeps-texts-4706bbdb0e73.herokuapp.com
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
+* [Credits](#credits)
 
 ## Installation
 
@@ -58,7 +59,7 @@ THEN I should see a client server folder structure
 
 *Below is the screenrecod of the running at npm run start and npm run build and the generated HTML, service worker and a manifest file*
 
-![alt text](/demo-assets/dmeo-file-structure.mp4)
+[watch video](/demo-assets/dmeo-file-structure.mp4)
 
 3.
 ``````
@@ -80,7 +81,7 @@ WHEN I reopen the text editor after closing it
 THEN I find that the content in the text editor has been retrieved from our IndexedDB
 ``````
 
-![alt text](/demo-assets/demo-local-host.mp4)
+[watch video](/demo-assets/demo-local-host.mp4)
 
 5.
 ``````
@@ -100,9 +101,13 @@ WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application 
 ````````
 
-![alt text](/demo-assets/deployed-app-demo.mp4)
+[watch video](/demo-assets/deployed-app-demo.mp4)
 
  
 ## License
 
 There is no license.
+
+
+## Credits
+Credit to my teacher and assistant teacher, Mr. Ragheed and Mr. Torres, for giving me the nessacary guidance to understand the coding languages. Along with Ohio State University for creating the Coding Bootcmap.
